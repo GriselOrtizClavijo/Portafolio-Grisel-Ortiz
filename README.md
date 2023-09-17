@@ -1,4 +1,4 @@
-### Portafolio de Desarrollo de Grisel Ortiz Clavijo
+# Portafolio de Desarrollo de Grisel Ortiz Clavijo
 
 ¡Bienvenido a mi portafolio de desarrollo! Soy Grisel, una apasionada programadora junior con un fuerte interés en la creación de soluciones tecnológicas innovadoras. Este portafolio es un vistazo a mi viaje de inicio en el mundo de la programación, donde encontrarás una selección de proyectos que he creado para demostrar mis habilidades y conocimientos.
 
@@ -22,11 +22,11 @@ Portafol
 ## Tecnologías
 Durante mi tiempo como programador junior, he tenido la oportunidad de trabajar con una variedad de tecnologías, incluyendo, pero no limitado:
 
-# Javascript, css, HTML
+### Javascript, css, HTML
 
-# Springboot, SpringSecurity
+### Springboot, SpringSecurity
 
-# React + Vite
+### React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -35,13 +35,13 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-# Tailwind
+### Tailwind
 
 ## Herramientas
 
-# GitHub
-# VSC
-# Intellij IDEA
+### GitHub
+### VSC
+### Intellij IDEA
 
 ## Objetivos Futuros
 
