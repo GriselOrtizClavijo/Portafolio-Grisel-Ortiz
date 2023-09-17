@@ -10,11 +10,11 @@ const Projects = () => {
 
   return (
    
-      <div className="flex flex-col justify-center pt-20">
-          <div>
+      <div className="container-project">
+          <div  className="items-center fixed top-0 left-0 p-10 w-full justify-center w-screen text-black ">
             <h2 className="text-justify text-5xl pl-20">Proyectos</h2>
           </div>
-          <div className="flex w-3/4 justify-center">
+          <div className="flex w-3/4 justify-center items-center">
           <img src={logo} alt="miLogo" className=" logo" />
           </div>
           <div className='project-list-container'>

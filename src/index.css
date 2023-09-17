@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 :root {
+
   font-family:'Comic Neue', cursive;
   font-weight: 300;
   font-size: 16px;
@@ -11,6 +12,7 @@
   color: rgba(255, 255, 255, 0.87);
   background-image: url("../src/components/img/fondo.png");
   background-size: cover;
+
 }
 
 
@@ -52,6 +54,21 @@ h1 {
 
 .btn:hover {
   background-color: #8e1a9e;
+}
+
+.btn-close{
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.422);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  margin-top: 2rem;
+  background-color: #5058fc39; 
+  color: white;
+  transition: background-color 300ms ease-in-out;
+  border-radius: 3rem;
+  align-self:flex-end;
+  position: fixed;
 }
 
 .icons{
@@ -116,4 +133,41 @@ h1 {
   width: 2rem;
   height: 2rem;
   transition: all 0.3s; 
+}
+
+.modal{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  background-color: rgb(185, 124, 243);
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  border-radius: 10px;
+  padding: 20px 100px 20px 100px;
+  border-style: double;
+  border-color: #1f9db9;
+  border-width: 10px;
+}
+
+.btn-modal{
+
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.422);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  margin-top: 2rem;
+  background-color: #5058fc39; 
+  color: white;
+  transition: background-color 300ms ease-in-out;
+  width: 10em; 
+  height: 10em;
+}
+
+.p-modal{
+  text-align: justify;
+  padding-top: 50px;
 }

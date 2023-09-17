@@ -58,7 +58,7 @@ const Contact = () => {
         className="icons"
         icon={faMobileRetro}
         style={{ color: "#1f3b51", cursor: 'pointer' }}
-        onClick={handlePhoneNumberClick} // Llama a la función cuando se haga clic en el icono
+        onClick={handlePhoneNumberClick} 
         />
           {copied ? (
             <span className="textIcons">Número copiado</span>
