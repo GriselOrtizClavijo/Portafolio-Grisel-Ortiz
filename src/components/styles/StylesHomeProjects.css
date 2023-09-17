@@ -1,0 +1,76 @@
+/*.dropDownProjects{
+
+    top: 4.5rem;
+    right: 4rem;
+    width: 80px;
+    padding: 15px;
+    border-radius: 15px;
+    border:  1px solid gray;
+    list-style-type: none;
+  }
+  
+  dropDownProjects::before{
+    content: '';
+    position: absolute;
+    top: -1rem;
+    right: 2rem;
+    width: 25px;
+    height: 25px;
+    transform:rotate(4deg) ;  
+  }
+  */
+
+
+  .section-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px 20px 80px;
+  }
+
+  .project-list-container {
+    
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    margin-bottom: 200px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+    font-size: 30px;
+    color: #303336;
+  }
+
+  .text-shadow {
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el padding según tus necesidades */
+    background-color: #00ffff14; /* Color de fondo */
+    color: #303336; /* Color del texto */
+    text-align: center;
+    border-radius: 8px; /* Redondeo del borde */
+    box-shadow: 0 4px 10px -1px rgba(0, 0, 0, 0.1), 0 10px 10px -2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    width: 300px;
+  }
+  
+  .text-shadow:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 10px -1px rgba(0, 0, 0, 0.3), 0 10px 10px -2px rgba(0, 0, 0, 0.3); /* Cambio de sombra al pasar el cursor */
+  }
+
+  .img-project{
+    padding-bottom: 20px;
+  }
+
+  .icons-projects{
+    display: grid;
+    grid-template-columns: repeat(7, 100px); 
+    gap: 3rem;
+    justify-items: center;
+    padding-top: 2rem;
+
+  }

@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family:'Comic Neue', cursive;
+  font-weight: 300;
+  font-size: 16px;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-image: url("../src/components/img/fondo.png");
+  background-size: cover;
+}
+
+
+
+h1 {
+  font-size: 6em;
+  line-height: 3;
+  color: #303336;
+  font-weight: bolder;
+}
+
+/* tener en cuenta para cambiar modo oscuro */
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+.btn{
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.422);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  margin-top: 2rem;
+  background-color: #5058fc39; 
+  color: white;
+  transition: background-color 300ms ease-in-out;
+  border-radius: 3rem;
+}
+
+.btn:hover {
+  background-color: #8e1a9e;
+}
+
+.icons{
+  width: 12rem;
+  height: 6rem;
+  object-fit: contain;
+  transition: all 0.3s; 
+  padding-top: 20px;
+}
+
+.icons:hover {
+  transform: scale(1.2); 
+  filter: brightness(1.6); 
+}
+
+.icons-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 1rem;
+  justify-items: center;
+  padding-top: 2rem;
+}
+
+.logo{
+  width: 40rem;
+  height: 40rem;
+  object-fit: contain;
+  transition: all 0.3s;
+}
+
+.logo:hover {
+  transform: scale(1.2); 
+  filter: brightness(1.0); 
+}
+
+.icons-contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding-top: 8rem;
+  width: 20rem;
+  height: 18rem;
+}
+
+.icons-contact .textIcons{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #303336;
+  padding-top: 1rem; 
+}
+
+.contact-home{
+  display: flex;
+  flex-direction: column; /* Alinea los elementos en una columna */
+  align-items: center; /* Centra los elementos horizontalmente */
+  justify-content: center
+}
+
+.contact-home .icons{
+  width: 2rem;
+  height: 2rem;
+  transition: all 0.3s; 
+}
