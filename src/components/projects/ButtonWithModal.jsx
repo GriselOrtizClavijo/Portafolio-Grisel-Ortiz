@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Modal from 'react-modal';
 
 Modal.setAppElement('#root');
 
+// eslint-disable-next-line react/prop-types
 const ButtonWithModal =({ buttonText, modalContent }) => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
   
