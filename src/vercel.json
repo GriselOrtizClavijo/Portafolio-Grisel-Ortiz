@@ -8,18 +8,36 @@
         {
         "src": "/aboutMe",
         "dest": "/"
-        
         },
         {
         "src": "/projects",
         "dest": "/"
-        
         }, 
         {
         "src": "/contact",
         "dest": "/"
-        
-        }
+        },
+        {
+        "src": "/projects/planazo",
+        "dest": "/projects/"
+        },
+        {
+        "src": "/projects/teofonita",
+        "dest": "/projects/"
+        },
+        {
+        "src": "/projects/psa",
+        "dest": "/projects/"
+        },
+        {
+        "src": "/projects/yuliethcardozo",
+        "dest": "/projects/"
+        },
+        {
+        "src": "/projects/inventory",
+        "dest": "/projects/"
+        }             
+
         
     ]
 }
