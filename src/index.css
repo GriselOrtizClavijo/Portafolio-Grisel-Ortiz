@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,9 +13,17 @@
   color: rgba(255, 255, 255, 0.87);
   background-image: url("../src/components/img/fondo.png");
   background-size: cover;
-
+  overflow: scroll;
+  max-height: 80vh;
 }
 
+.section-home {
+  display: flex;
+  height: auto;
+  width: auto; /* Limita la altura al 80% de la altura de la ventana */
+  overflow-y: auto;
+  padding-top: 30px;
+}
 
 
 h1 {
@@ -92,10 +101,16 @@ h1 {
   padding-top: 2rem;
 }
 
+.container-logo {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente en versión móvil */
+  align-items: center; /* Centra verticalmente en versión móvil */
+  text-align: center; /* Centra el contenido de texto horizontalmente en versión móvil */
+}
+
 .logo{
-  width: 40rem;
-  height: 40rem;
-  object-fit: contain;
+  width: 680px;
+  height: 400px;
   transition: all 0.3s;
 }
 
@@ -170,4 +185,123 @@ h1 {
 .p-modal{
   text-align: justify;
   padding-top: 50px;
+}
+
+  @layer components {
+
+  /* sm */
+	@media (max-width: 640px) {
+		.section-home {
+      @apply flex flex-col-reverse w-auto mt-0 pt-0;
+    }
+  
+    .section-home h1 {
+      @apply text-2xl;
+    }
+  
+    .section-home p {
+      @apply text-xs text-justify w-80 leading-normal text-center pt-10 pl-5 pr-5;
+    }
+
+    a .logo {
+      @apply w-80 h-40 mb-5 pt-0 mt-0
+    }
+  
+    a .btn {
+      @apply py-3 px-3 text-xs/[5px]  font-light rounded-[10px] w-max mt-5;
+
+	}
+
+	/* md */
+	@media (min-width: 768px) {
+	}
+
+	/* lg */
+	@media (min-width: 1024px) {
+		.product-container {
+			@apply px-0;
+		}
+	}
+
+	/* xl */
+	@media (min-width: 1280px) {
+	}
+
+	/* 2xl */
+	@media (min-width: 1536px) {
+	}
+}
+
+/* Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  @apply h-[10px];
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply bg-slate-400/30 rounded-full mx-6 lg:mx-0;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-pink-700 rounded-full;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  @apply bg-pink-800 cursor-pointer;
+}
+
+.gallery {
+  @apply w-full grid grid-cols-4 gap-2 sm:grid-rows-2;
+}
+
+.gallery button {
+  @apply hidden col-span-1 h-[100px] sm:h-[196px] row-span-1 overflow-hidden sm:block;
+}
+
+.gallery button:first-child {
+  @apply h-[250px] block col-span-4 sm:col-span-2 sm:row-span-2 sm:h-[400px] overflow-hidden;
+}
+
+.gallery img {
+  @apply object-cover h-full w-full cursor-pointer hover:scale-105 duration-100;
+}
+
+.pattern-bg {
+  background-image: url('assets/img/Pattern.svg');
+  background-repeat: repeat;
+  background-size: 300px 300px;
+}
+
+.login-pattern-bg {
+  background-image: url('assets/img/PatternLogin.svg');
+  background-repeat: repeat;
+  background-size: 300px 300px;
+}
+
+.policies {
+  @apply grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 md:gap-10 md:grid-cols-3;
+}
+
+.policies > div {
+  @apply flex flex-col gap-2 col-span-1;
+}
+
+.policies h2 {
+  @apply text-lg font-semibold text-indigo-800;
+}
+
+.policies p {
+  @apply text-justify;
+}
+
+.table-subtotals {
+  @apply table-auto w-full divide-y divide-gray-200;
+}
+
+.table-subtotals th {
+  @apply py-2 px-1 uppercase;
+}
+
+.table-subtotals td {
+  @apply py-2 px-1;
+}
 }
