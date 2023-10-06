@@ -7,11 +7,11 @@ import Contact from './components/Contact'
 
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import NavBar from './components/NavBar';
-import Planazo from './components/projects/Planazo'
-import Teofonita from './components/projects/Teofonita'
-import PSA from './components/projects/PSA'
-import Inventory from './components/projects/Inventory'
-import YuliethCardozo from './components/projects/YuliethCardozo'
+import Planazo from './components/projectsInd/Planazo'
+import Teofonita from './components/projectsInd/Teofonita'
+import PSA from './components/projectsInd/PSA'
+import Inventory from './components/projectsInd/Inventory'
+import YuliethCardozo from './components/projectsInd/YuliethCardozo'
 
 function App() {
   
