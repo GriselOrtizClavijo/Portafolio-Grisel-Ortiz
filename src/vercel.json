@@ -18,24 +18,24 @@
         "dest": "/"
         },
         {
-        "src": "/components/projects/planazo",
-        "dest": "/components/projects/"
+        "src": "/projects/planazo",
+        "dest": "/"
         },
         {
-        "src": "/components/projects/teofonita",
-        "dest": "/components/projects/"
+        "src": "/projects/teofonita",
+        "dest": "/"
         },
         {
-        "src": "/components/projects/psa",
-        "dest": "/components/projects/"
+        "src": "/projects/psa",
+        "dest": "/"
         },
         {
-        "src": "/components/projects/yuliethcardozo",
-        "dest": "/components/projects/"
+        "src": "/projects/yuliethcardozo",
+        "dest": "/"
         },
         {
-        "src": "/components/projects/inventory",
-        "dest": "/components/projects/"
+        "src": "/projects/inventory",
+        "dest": "/"
         }             
 
         
