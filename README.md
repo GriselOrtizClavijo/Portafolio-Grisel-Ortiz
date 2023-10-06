@@ -20,17 +20,13 @@ Me encuentro actualmente trabajando en otros tres proyectos que pronto se verán
 Portafol
 
 ## Tecnologías
-Durante mi tiempo como programador junior, he tenido la oportunidad de trabajar con una variedad de tecnologías, incluyendo, pero no limitado:
+Durante mi tiempo como programadora junior, he tenido la oportunidad de trabajar con una variedad de tecnologías, incluyendo, pero no limitado:
 
 ### Javascript, css, HTML
 
 ### Springboot, SpringSecurity
 
 ### React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
@@ -45,6 +41,6 @@ Currently, two official plugins are available:
 
 ## Objetivos Futuros
 
-Estoy emocionado por lo que el futuro me depara como programadora. Mis objetivos incluyen seguir aprendiendo y mejorando mis habilidades, participar en proyectos desafiantes y colaborar con otros profesionales de la industria. También estoy abierta a oportunidades de trabajo y colaboración, por lo que no dudes en contactarme si estás interesado en trabajar juntos en un proyecto emocionante.
+Estoy emocionada por lo que el futuro me depara como programadora. Mis objetivos incluyen seguir aprendiendo y mejorando mis habilidades, participar en proyectos desafiantes y colaborar con otros profesionales de la industria. También estoy abierta a oportunidades de trabajo y colaboración, por lo que no dudes en contactarme si estás interesado en trabajar juntos en un proyecto emocionante.
 
 ¡Gracias por visitar mi portafolio! Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de mi correo electrónico grisoc930@gmail.com.
